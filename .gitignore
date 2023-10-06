@@ -1,0 +1,56 @@
+# Python (Django) ignore rules
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+*.log
+*.pot
+*.sqlite3
+db.sqlite3
+venv/
+*.swp
+*.swo
+*.swn
+
+# Django-specific ignore rules
+*.local
+media/  # Assuming media is where you store user-uploaded files
+
+# React ignore rules
+node_modules/
+npm-debug.log*
+yarn-error.log
+.yarn-integrity
+build/
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Docker ignore rules
+*.env  # sensitive environment variables might be stored here
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+*.dockerfile
+**/.dockerconfig  # Docker config files
+*.log
+*.pid
+*.seed
+*.db
+
+# Jenkins ignore rules
+Jenkinsfile
+.jenkins/
+*.bak
+
+# Miscellaneous files and directories to ignore
+*.DS_Store  # For macOS
+.idea/  # For PyCharm
+*.iml  # For IntelliJ and PyCharm
+.vscode/  # For Visual Studio Code
+*.code-workspace
+
+#env
+.env
+
